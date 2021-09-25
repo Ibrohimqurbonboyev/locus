@@ -191,7 +191,7 @@ ul{
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .img {
     width: 615px;
@@ -203,4 +203,35 @@ ul{
 
 .paragrf {
     padding-top: 100px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: #486958;
 }
+
+.para-text{
+    padding-right: 400px;
+}
+
+.contact-us {
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+.h1 {
+}
+.par {
+}
+.input {
+    border: 1px solid #486958;
+    box-sizing: border-box;
+    display: grid;
+    padding-bottom: 20px;
+}
+
+.repeat{
+    width: 424px;
+    height: 48px; 
+}
+
