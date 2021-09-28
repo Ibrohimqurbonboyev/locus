@@ -219,10 +219,7 @@ ul{
     display: flex;
     justify-content: space-around;
 }
-.h1 {
-}
-.par {
-}
+
 .input {
     border: 1px solid #486958;
     box-sizing: border-box;
@@ -234,4 +231,126 @@ ul{
     width: 424px;
     height: 48px; 
 }
+
+/* secure start */
+
+.secure {
+    padding-bottom: 176px;
+    text-align: center;
+  }
+  .secure-heading {
+    font-size: 54px;
+    line-height: 72px;
+    color: #12100c;
+    margin-bottom: 47px;
+  }
+  .secure-img {
+    margin-bottom: 49px;
+    display: block;
+    width: 1269px;
+    height: 821px;
+  }
+  .secure-text {
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(18, 16, 12, 0.7);
+    width: 877px;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+  
+  .secure-chrome-link {
+    margin-right: 16px;
+    display: inline-block;
+  }
+  .secure-chrome-img {
+    display: inline-block;
+    width: 207px;
+    height: 47px;
+  }
+  .secure-firefox-link {
+    display: inline-block;
+  }
+  .secure-firefox-img {
+    display: inline-block;
+    width: 199px;
+    height: 47px;
+  }
+  
+  /* secure end */
+
+  /* media start */
+
+@media screen and (max-width:1000px){
+
+    * {
+        margin-right: 0px;
+    }
+
+    .header,
+    .header-nav,
+    .header-text,
+    .header-nav,
+    .header-ul,
+    .header-img-card,
+    .body,
+    .body-container,
+    .our-mission,
+    .our-mission-container,
+    .our-mission-text,
+    .work-container,
+    .our-project-container,
+    .testimonial-img-card,
+    .paragrf,
+    .img,
+    .container,
+    .contact {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .body-img,
+    .work-img,
+    .our-mission-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-bg,
+    .para-text,
+    .work-title {
+        width: 80%;
+        height: 80%;
+    }
+
+    .body-text,
+    .navbar-text,
+    .h2,
+    .clas-h1,
+    .qwer-h1 {
+        font-size: 42px !important;
+        line-height: 1.5 !important;
+    }
+
+    .body-title,
+    .navbar-title,
+    .paragrif-p,
+    .h3,
+    .ser-p,
+    .par-text,
+    .qwer-p {
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+    }
+
+    .testimonial-img {
+        width: 30%;
+        height: 30%;
+        padding-bottom: 10px;
+    }
+
+}
+
+  /* media end */
 
